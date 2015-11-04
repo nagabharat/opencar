@@ -1,0 +1,47 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="opencar:war exploded">
+    <output-path>$PROJECT_DIR$/target/open-0.1</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="opencar" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.google.appengine:appengine-api-1.0-sdk:1.9.23" />
+          <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
+          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-servlet:1.19" />
+          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-server:1.19" />
+          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-json:1.19" />
+          <element id="library" level="project" name="Maven: org.codehaus.jettison:jettison:1.1" />
+          <element id="library" level="project" name="Maven: com.sun.xml.bind:jaxb-impl:2.2.3-1" />
+          <element id="library" level="project" name="Maven: javax.xml.bind:jaxb-api:2.2.2" />
+          <element id="library" level="project" name="Maven: javax.xml.stream:stax-api:1.0-2" />
+          <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.2" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.2" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-jaxrs:1.9.2" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-xc:1.9.2" />
+          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-core:1.19" />
+          <element id="library" level="project" name="Maven: javax.ws.rs:jsr311-api:1.1.1" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.2" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-simple:1.7.2" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.35" />
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.0.1" />
+          <element id="library" level="project" name="Maven: joda-time:joda-time:2.7" />
+          <element id="library" level="project" name="Maven: com.google.guava:guava:18.0" />
+          <element id="library" level="project" name="Maven: javax.servlet:jsp-api:2.0" />
+          <element id="library" level="project" name="Maven: com.googlecode.json-simple:json-simple:1.1" />
+          <element id="library" level="project" name="Maven: com.itextpdf:itextpdf:5.5.6" />
+          <element id="library" level="project" name="Maven: com.google.maps:google-maps-services:0.1.7" />
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.3.1" />
+          <element id="library" level="project" name="Maven: com.squareup.okhttp:okhttp:2.0.0" />
+          <element id="library" level="project" name="Maven: com.squareup.okio:okio:1.0.0" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="opencar/web/Web" />
+    </root>
+  </artifact>
+</component>
